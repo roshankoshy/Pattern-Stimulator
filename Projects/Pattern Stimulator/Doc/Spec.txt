@@ -1,0 +1,44 @@
+Create an MFC SDI Application form Wizard Called PatternSimulator with the following Menus 
+
+=>Delete all Unnecessary Menus
+
+Program Menus 
+
+File Menu 
+=>Exit
+
+View Menu
+=>Toolbar
+=>Status Bar
+
+Pattern Menu
+ 
+=>Select Pattern Dialog
+
+A Combo Box with the Following Items
+
+Select Pattern
+ 
+Random Walk | This will animate Random Walk problem | Start form One Point (say 100, 100) and Move Randomly to the next x y point |  ie Move To LineTo to arbitray Points
+
+Spiral | Animate Spiral Motion with increasing Radius | https://www.britannica.com/science/spiral-mathematics
+
+Damped Harmonic Oscillator | see the Dampled harmonic Oscillaton Equation | http://hyperphysics.phy-astr.gsu.edu/hbase/oscda.html | 
+
+http://tektips.in/qt-graphics-programming-video-damped-harmonic-oscillator.aspx | Some students attempted here using QT C++ 
+
+You can hard code all the values like Radius , Amplitde etc abd no need of input box except the Pattern selection combo box . But you can design Input dialogs if needed .. But it is Optional
+
+OK | Cancel Button
+
+Operations Menu
+
+=>Start 
+
+=>Stop 
+
+Help Menu
+
+About PatternGenerator
+
+Create Installation Setup | Create an Installation setup for the App using Inno Setup
